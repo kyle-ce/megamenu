@@ -22,13 +22,13 @@ const Megamenu = () => {
                 type="text"
                 id="search"
                 name="search"
-                className="w-full px-4 py-1 text-black rounded-xl"
+                className="w-full px-4 py-2 text-black rounded-xl"
               />
               <button className="absolute top-0 right-0 z-10 text-black transition duration-300 group-focus-within:opacity-0 group-focus-within:invisible">
-                <FiSearch className="h-8 mr-2 text-center "></FiSearch>
+                <FiSearch className="h-8 mt-1 mr-2 text-center "></FiSearch>
               </button>
               <button className="absolute top-0 right-0 z-10 text-black transition duration-300 opacity-0 group-focus-within:opacity-100 group-focus-within:visible">
-                <MdClose className="h-8 mr-2 text-center "></MdClose>
+                <MdClose className="h-8 mt-1 mr-2 text-center "></MdClose>
               </button>
               <label
                 htmlFor="search"
@@ -38,15 +38,15 @@ const Megamenu = () => {
               </label>
             </form>
           </div>
-          <button className="relative text-white shadow-lg">
+          <button className="relative p-5 text-white rounded-lg hover:shadow-lg hover:bg-zinc-50/50">
             <FiShoppingCart className="h-8 text-center "></FiShoppingCart>
           </button>
         </div>
         <div className="flex items-end text-white">
           <nav className="">
             <ul className="flex gap-6 flexh-full ">
-              <li className="h-full group">
-                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 focus:bg-red-500">
+              <li className=" group">
+                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 ">
                   General Industrial
                 </button>
                 <div className="absolute  invisible w-full top-[100%] left-0 shadow-lg rounded-lg opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-x-0  translate-x-[100%]   transition-all duration-300">
@@ -61,16 +61,54 @@ const Megamenu = () => {
                   <div className="p-6 font-semibold text-black">Exterior</div>
                 </div>
               </li>
-              <li className="relative px-3 py-2">Interior Paint & Coatings</li>
-              <li className="relative px-3 py-2">Exterior Paint & Coatings</li>
-              <li className="relative px-3 py-2">
-                Protective & Marine Coatings
+              <li className=" group">
+                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 ">
+                  Interior Paint & Coatings
+                </button>
+                <div className="absolute  invisible w-full top-[100%] left-0 shadow-lg rounded-lg opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-x-0  translate-x-[100%]   transition-all duration-300">
+                  <div className="p-6 font-semibold text-black">Interior</div>
+                </div>
               </li>
-              <li className="relative hidden px-3 py-2 xl:block">
-                Equipment & Supplies
+              <li className=" group">
+                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 ">
+                  Exterior Paint & Coatings
+                </button>
+                <div className="absolute  invisible w-full top-[100%] left-0 shadow-lg rounded-lg opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-x-0  translate-x-[100%]   transition-all duration-300">
+                  <div className="p-6 font-semibold text-black">Interior</div>
+                </div>
               </li>
-              <li className="relative hidden px-3 py-2 xl:block">SprayBuy</li>
-              <li className="relative hidden px-3 py-2 xl:block">FAQ</li>
+              <li className=" group">
+                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 ">
+                  Protective & Marine Coatings
+                </button>
+                <div className="absolute  invisible w-full top-[100%] left-0 shadow-lg rounded-lg opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-x-0  translate-x-[100%]   transition-all duration-300">
+                  <div className="p-6 font-semibold text-black">Interior</div>
+                </div>
+              </li>
+              <li className=" group">
+                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 ">
+                  Equipment & Supplies
+                </button>
+                <div className="absolute  invisible w-full top-[100%] left-0 shadow-lg rounded-lg opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-x-0  translate-x-[100%]   transition-all duration-300">
+                  <div className="p-6 font-semibold text-black">Interior</div>
+                </div>
+              </li>
+              <li className=" group">
+                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 ">
+                  SprayBuy
+                </button>
+                <div className="absolute  invisible w-full top-[100%] left-0 shadow-lg rounded-lg opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-x-0  translate-x-[100%]   transition-all duration-300">
+                  <div className="p-6 font-semibold text-black">Interior</div>
+                </div>
+              </li>
+              <li className=" group">
+                <button className="px-3 py-2 rounded-lg group-hover:bg-zinc-50/50 ">
+                  FAQ
+                </button>
+                <div className="absolute  invisible w-full top-[100%] left-0 shadow-lg rounded-lg opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-x-0  translate-x-[100%]   transition-all duration-300">
+                  <div className="p-6 font-semibold text-black">Interior</div>
+                </div>
+              </li>
             </ul>
           </nav>
         </div>
