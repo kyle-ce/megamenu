@@ -1,6 +1,55 @@
 import React from "react";
 import MenuItem from "./MenuItem";
 
+const catalog = [
+  {
+    name: "Department 1",
+    uniqueid: 1,
+    CatalogGroupView: [
+      {
+        name: "Category 1",
+        uniqueid: 101,
+        CatalogGroupView: [
+          {
+            name: "Subcategory 1",
+            uniqueid: 1001,
+          },
+          {
+            name: "Subcategory 2",
+            uniqueid: 1002,
+          },
+        ],
+      },
+      {
+        name: "Category 2",
+        uniqueid: 102,
+        CatalogGroupView: [
+          {
+            name: "Subcategory 3",
+            uniqueid: 1003,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Department 2",
+    uniqueid: 2,
+    CatalogGroupView: [
+      {
+        name: "Category 3",
+        uniqueid: 103,
+        CatalogGroupView: [
+          {
+            name: "Subcategory 4",
+            uniqueid: 1004,
+          },
+        ],
+      },
+    ],
+  },
+];
+
 const Megamenu = () => {
   return (
     <nav className="text-white ">
@@ -227,7 +276,51 @@ const Megamenu = () => {
           className="hidden xl:block"
           name="Protective & Marine Coatings"
         >
-          {/* Menu */}
+          <div>
+            <li>
+              <a href="#" className="font-semibold">
+                High Performance Floor Coatings
+              </a>
+            </li>
+            <hr className="mb-4"></hr>
+            <li>
+              <a href="#" className="font-semibold">
+                Industrial High Performance Paints
+              </a>
+            </li>
+            <hr className="mb-4"></hr>
+            <li>
+              <a href="#" className="font-semibold">
+                Marine Coatings
+              </a>
+            </li>
+            <hr className="mb-4"></hr>
+            <li>
+              <a href="#" className="font-semibold">
+                Primers & Sealers
+              </a>
+            </li>
+            <hr className="mb-4"></hr>
+            <li>
+              <a href="#" className="font-semibold">
+                Tank Lining & Secondary Containment
+              </a>
+            </li>
+            <hr className="mb-4"></hr>
+          </div>
+          <div>
+            <li>
+              <a href="#" className="font-semibold">
+                Concrete Products
+              </a>
+            </li>
+            <hr className="mb-4"></hr>
+            <li>
+              <a href="#" className="">
+                Concrete Coatings
+              </a>
+            </li>
+          </div>
         </MenuItem>
         <MenuItem name=" Equipment & Supplies">{/* Menu */}</MenuItem>
         <MenuItem name="SprayBuy">{/* Menu */}</MenuItem>

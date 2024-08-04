@@ -1,0 +1,108 @@
+{
+  "recordSetStartNumber": "string",
+  "SuggestionView": [
+    {
+      "Entry": [
+        {
+          "image": "string",
+          "name": "string",
+          "value": "string",
+          "userDataField": [
+            {
+              "value": "string",
+              "key": "string"
+            }
+          ]
+        }
+      ],
+      "identifier": "string",
+      "label": "string"
+    }
+  ],
+  "recordSetComplete": "string",
+  "FacetView": [
+    {
+      "Entry": [
+        {
+          "count": "string",
+          "image": "string",
+          "entryValue": "string",
+          "label": "string"
+        }
+      ],
+      "name": "string",
+      "value": "string"
+    }
+  ],
+  "recordSetCount": "string",
+  "indexStatus": "string",
+  "report": ["string"],
+  "WebContentView": [
+    {
+      "URL": "string",
+      "userDataField": [
+        {
+          "value": "string",
+          "key": "string"
+        }
+      ],
+      "name": "string",
+      "uniqueID": "string",
+      "MetaData": [
+        {
+          "metaData": "string"
+        }
+      ]
+    }
+  ],
+  "userDataField": [
+    {
+      "value": "string",
+      "key": "string"
+    }
+  ],
+  "recordSetTotal": "string",
+  "BreadCrumbTrailEntryView": [
+    {
+      "type": "string",
+      "value": "string",
+      "label": "string"
+    }
+  ],
+  "CatalogGroupView": [
+    {
+      "name": "string",
+      "fullImage": "string",
+      "fullImageAltDescription": "string",
+      "shortDescription": "string",
+      "metaKeyword": "string",
+      "parentCatalogGroupID": ["string"],
+      "longDescription": "string",
+      "uniqueID": "string",
+      "userDataField": [
+        {
+          "value": "string",
+          "key": "string"
+        }
+      ],
+      "title": "string",
+      "fullPath": "string",
+      "identifier": "string",
+      "metaDescription": "string",
+      "thumbnail": "string",
+      "MetaData": [
+        {
+          "metaKey": "string",
+          "metaData": "string"
+        }
+      ]
+    }
+  ],
+  "finalQuery": "string",
+  "MetaData": [
+    {
+      "metaKey": "string",
+      "metaData": "string"
+    }
+  ]
+}

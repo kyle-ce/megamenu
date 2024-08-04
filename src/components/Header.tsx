@@ -16,7 +16,7 @@ const Header = () => {
               ></img>
             </a>
           </nav>
-          <div className="max-w-[600px] w-full">
+          <div className="max-w-[600px] mx-5 w-full">
             <Search />
           </div>
           {/* CART */}
